@@ -4,7 +4,8 @@ def configMap = [
 
     type: "nodeJSEKS",
     component: "localhelp-frontend",
-    project: "localhelp"
+    project: "localhelp",
+    appDir: "frontend"
 ]
 
 pipelineDecision.decidePipeline(configMap)

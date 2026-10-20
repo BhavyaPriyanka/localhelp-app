@@ -1,10 +1,11 @@
-@Library('jenkins-shared-library@main') _
+@Library('jenkins-shared-library@v1.9.13') _
 
 def configMap = [
 
     type: "javaEKS",
     component: "localhelp-backend",
-    project: "localhelp"
+    project: "localhelp",
+    appDir: "backend"
 ]
 
 pipelineDecision.decidePipeline(configMap)
