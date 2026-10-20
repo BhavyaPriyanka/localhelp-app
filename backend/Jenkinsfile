@@ -2,7 +2,7 @@
 
 def configMap = [
 
-    type: "javaEKSCI",
+    type: "javaEKS",
     component: "localhelp-backend",
     project: "localhelp",
     appDir: "backend"
