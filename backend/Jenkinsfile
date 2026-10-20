@@ -1,8 +1,8 @@
-@Library('localhelp-jenkins-shared-library@v1.9.13') _
+@Library('localhelp-jenkins-shared-library@v1.9.14') _
 
 def configMap = [
 
-    type: "javaEKS",
+    type: "javaEKS-CI",
     component: "localhelp-backend",
     project: "localhelp",
     appDir: "backend"
