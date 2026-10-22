@@ -59,7 +59,7 @@ VALUES
 ('Azithromycin','Antibiotic',120,100),
 ('Vitamin C','Supplement',80,100);
 
-CREATE USER 'appuser'@'%' IDENTIFIED BY 'localhelp';
+CREATE USER IF NOT EXISTS 'appuser'@'%' IDENTIFIED BY 'localhelp';
 
 GRANT ALL PRIVILEGES ON appdb.* TO 'appuser'@'%';
 
