@@ -5,7 +5,7 @@ LocalHelp is a web application that helps users browse medicines, add medicines 
 - Frontend: React.js
 - Backend: Java Spring Boot
 - Database: MySQL
-- 
+  
 # Features
 - User Login: Users can log in to access the application.
 - Medicine Listing: Users can browse available medicines.
@@ -18,9 +18,11 @@ LocalHelp is a web application that helps users browse medicines, add medicines 
 User Login → Browse Medicines → Add to Cart → Place Order → View Order History → Logout
 
 # DevOps Repo List:
+```
 **GitOps**                            :   Gitops-ArgoCD
 **Jenkins Shared Library**            :   localhelp-jenkins-shared-library
 **Terraform**                         :   aws-eks-terraform
 **Tools Infra - Jenkins,SonarQube**   :   terraform-jenkins
 **VPC Module**                        :   terraform-aws-vpc
 **Security Groups Module**            :   terraform-aws-securitygroup
+```
